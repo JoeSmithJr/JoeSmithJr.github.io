@@ -1,6 +1,6 @@
 #include <stdio.h>
 #define N 4
-static unsigned char Sbox[16*16] =  // S盒
+static unsigned char Sbox[16*16] =  // S-Box
 {
            //0   1     2     3     4     5     6     7     8     9     a     b     c     d     e     f 
     /*0*/  0x63, 0x7c, 0x77, 0x7b, 0xf2, 0x6b, 0x6f, 0xc5, 0x30, 0x01, 0x67, 0x2b, 0xfe, 0xd7, 0xab, 0x76,
@@ -21,7 +21,7 @@ static unsigned char Sbox[16*16] =  // S盒
     /*f*/  0x8c, 0xa1, 0x89, 0x0d, 0xbf, 0xe6, 0x42, 0x68, 0x41, 0x99, 0x2d, 0x0f, 0xb0, 0x54, 0xbb, 0x16
 };
 
-static unsigned char RoundKey[N][N] =   // 轮密钥
+static unsigned char RoundKey[N][N] =   // Round-key
 {
     0xa0, 0x88, 0x23, 0x2a,
     0xfa, 0x54, 0xa3, 0x6c,
@@ -29,7 +29,7 @@ static unsigned char RoundKey[N][N] =   // 轮密钥
     0x17, 0xb1, 0x39, 0x05
 };
 
-void SubBytes(unsigned char State[N][N])    // 字节替代
+void SubBytes(unsigned char State[N][N])    // Byte-sub
 {
     int i, j;
     char high;
@@ -38,14 +38,14 @@ void SubBytes(unsigned char State[N][N])    // 字节替代
     {
         for (j = 0; j < N; j ++)
         {           
-                low  = State[i][j] & 0x0F;  // 取低4位
-                high = (State[i][j] >> 4)&0x0f; // 取高4位
+                low  = State[i][j] & 0x0F;  // take Low 4
+                high = (State[i][j] >> 4)&0x0f; // take High 4
                 State[i][j] = Sbox[16*high + low];
         }
     }
 }
 
-void ShiftRows(unsigned char State[N][N])   // 行移位
+void ShiftRows(unsigned char State[N][N])   // Line move
 {
     int i, j, k;
     int shiftnum = 0;
@@ -53,7 +53,7 @@ void ShiftRows(unsigned char State[N][N])   // 行移位
             
     for (i = 0; i < N; i ++)
     {
-        for (j = 0; j < shiftnum; j ++)     // 循环左移一次   
+        for (j = 0; j < shiftnum; j ++)     // Cycle move left once    
         { 
             tmp = State[i][0];
             for (k = 0; k < N-1; k ++)
@@ -62,7 +62,7 @@ void ShiftRows(unsigned char State[N][N])   // 行移位
             }
             State[i][k] = tmp;
         }
-        shiftnum ++;                       // 移位次数+1
+        shiftnum ++;                       // Move time+1
     }
 }
 
@@ -101,7 +101,7 @@ unsigned char choose(unsigned char a, unsigned char b)
     return b;
 }
 
-void MixColumns(unsigned char State[N][N])  // 列混合
+void MixColumns(unsigned char State[N][N])  // Column mix
 {
     unsigned char mix[N][N] = 
     {
@@ -150,7 +150,7 @@ int main()
     int i, j, tmp;
     unsigned char State[N][N];
     
-    printf("请输入数据：");
+    printf("Please Enter the data：");
     for (i = 0; i < N; i++)
     {
         for (j = 0; j < N; j++)
@@ -169,7 +169,7 @@ int main()
         }
     }
 
-    printf("\n原始数据为：(列优先)\n");
+    printf("\nOrigin data：(Column first)\n");
     for (i = 0; i < N; i++)
     {
         for (j = 0; j < N; j++)
@@ -181,7 +181,7 @@ int main()
     printf("\n");
 
     SubBytes(State);
-    printf("字节替代后：\n");
+    printf("Byte sub：\n");
     for (i = 0; i < N; i++)
     {
         for (j = 0; j < N; j++)
@@ -193,7 +193,7 @@ int main()
     printf("\n");
 
     ShiftRows(State);
-    printf("行移位后：\n");
+    printf("Line move：\n");
     for (i = 0; i < N; i++)
     {
         for (j = 0; j < N; j++)
@@ -205,7 +205,7 @@ int main()
     printf("\n");
 
     MixColumns(State);
-    printf("列混合后：\n");
+    printf("Column：\n");
     for (i = 0; i < N; i++)
     {
         for (j = 0; j < N; j++)
@@ -217,7 +217,7 @@ int main()
     printf("\n");
 
     AddRoundKey(State, RoundKey);
-    printf("轮密钥加后：\n");
+    printf("Round key Encryption：\n");
     for (i = 0; i < N; i++)
     {
         for (j = 0; j < N; j++)
