@@ -150,7 +150,7 @@ int main()
     int i, j, tmp;
     unsigned char State[N][N];
     
-    printf("Please Enter the data：");
+    printf("Please Enter the data:");
     for (i = 0; i < N; i++)
     {
         for (j = 0; j < N; j++)
@@ -169,7 +169,7 @@ int main()
         }
     }
 
-    printf("\nOrigin data：(Column first)\n");
+    printf("\nOrigin data:(Column first)\n");
     for (i = 0; i < N; i++)
     {
         for (j = 0; j < N; j++)
@@ -181,7 +181,7 @@ int main()
     printf("\n");
 
     SubBytes(State);
-    printf("Byte sub：\n");
+    printf("Byte sub:\n");
     for (i = 0; i < N; i++)
     {
         for (j = 0; j < N; j++)
@@ -193,7 +193,7 @@ int main()
     printf("\n");
 
     ShiftRows(State);
-    printf("Line move：\n");
+    printf("Line move:\n");
     for (i = 0; i < N; i++)
     {
         for (j = 0; j < N; j++)
@@ -205,19 +205,19 @@ int main()
     printf("\n");
 
     MixColumns(State);
-    printf("Column：\n");
+    printf("Column:\n");
     for (i = 0; i < N; i++)
     {
         for (j = 0; j < N; j++)
         {
-            printf("%0x ", State[i][j]);
+            printf("%0x", State[i][j]);
         }
         printf("\n");
     }
     printf("\n");
 
     AddRoundKey(State, RoundKey);
-    printf("Round key Encryption：\n");
+    printf("Round key Encryption:\n");
     for (i = 0; i < N; i++)
     {
         for (j = 0; j < N; j++)
