@@ -4,15 +4,30 @@
     <meta charset="UTF-8">
     <title>Minimalism</title>
     <style>
+        .pause {
+            height: 20px;
+            /*background: url(../Pic/front/music.png) no-repeat;*/
+            display: block;
+            background-position: 0 bottom;
+        }
+
+        .play {
+            height: 20px;
+            /*background: url(../Pic/front/music.png) no-repeat;*/
+            display: block;
+        }
+
     a{
         text-decoration:none;
     }
+
     </style>
 </head>
 <body>
 <li><img src="../Pic/front/PDF.png" width="20" height="20"><a href="PDF/minimalism.pdf">Minimalism.PDF</a></li>
 <li><img src="../Pic/front/PDF.png" width="20" height="20"><a href="PDF/极简术-奔向自由的50个断舍离.pdf">极简术-奔向自由的50个断舍离.PDF</a></li>
-<li>Songs:</li>
+<hr>
+<ul>Songs:</ul>
 <ul>
     <p><a href="../MP3/Belle%20and%20Sebastian、Norah%20Jones%20-%20Little%20Lou,%20Ugly%20Jack,%20Prophet%20John.mp3">Belle and Sebastian、Norah Jones - Little Lou, Ugly Jack, Prophet John</a></p>
     <p><a href="../MP3/Robbie%20Williams%20-%20Better%20Man.mp3">Robbie Williams - Better Man</a></p>
@@ -23,5 +38,38 @@
     <p><a href="../MP3/房东的猫%20-%20云烟成雨.mp3">房东的猫 - 云烟成雨</a></p>
 
 </ul>
+<!--<span id="musicControl">-->
+        <!--<a id="mc_play" class="on" onclick="play_music();">-->
+            <!--<audio id="music" loop="loop" autoplay="autoplay">-->
+                <!--<source src="../MP3/房东的猫%20-%20云烟成雨.mp3" type="audio/mpeg">-->
+            <!--</audio>-->
+        <!--</a>-->
+ <!--</span>-->
+
+
+<a class="play" id="audioBtn1" style="cursor:pointer;" onclick="autoPlay()">ハンバート ハンバート - 日が落ちるまで</a>
+<audio id="bgMusic1" src="../MP3/ハンバート ハンバート - 日が落ちるまで.mp3" autoplay preload loop="loop"></audio>
+
+<a class="play" id="audioBtn2" style="cursor:pointer;" onclick="autoPlay()">房东的猫 - 云烟成雨</a>
+<audio id="bgMusic2" src="../MP3/房东的猫%20-%20云烟成雨.mp3" autoplay preload loop="loop"></audio>
+
+
 </body>
+<script>
+    function autoPlay() {
+        var myAuto = document.getElementById('bgMusic?');
+        var btn = document.getElementById('audioBtn?');
+        if (myAuto.paused) {
+            myAuto.play();
+            btn.classList.remove("pause");
+            btn.classList.add("play");
+        } else {
+            myAuto.pause();
+
+            btn.classList.remove("play");
+            btn.classList.add("pause");
+        }
+
+    }
+</script>
 </html>
