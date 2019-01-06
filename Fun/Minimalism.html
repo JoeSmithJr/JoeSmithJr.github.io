@@ -38,36 +38,18 @@
     <p><a href="../MP3/房东的猫%20-%20云烟成雨.mp3">房东的猫 - 云烟成雨</a></p>
 
 </ul>
-<!--<span id="musicControl">-->
-        <!--<a id="mc_play" class="on" onclick="play_music();">-->
-            <!--<audio id="music" loop="loop" autoplay="autoplay">-->
-                <!--<source src="../MP3/房东的猫%20-%20云烟成雨.mp3" type="audio/mpeg">-->
-            <!--</audio>-->
-        <!--</a>-->
- <!--</span>-->
+<span id="musicControl">
+        <a id="mc_play" class="on" onclick="play_music();">
+            <audio id="music" loop="loop" autoplay="autoplay">
+                <source src="../MP3/房东的猫%20-%20云烟成雨.mp3" type="audio/mpeg">
+            </audio>
+        </a>
+ </span>
 
 
-<a class="play" id="audioBtn" style="cursor:pointer;" onclick="autoPlay()">ハンバート ハンバート - 日が落ちるまで</a>
-<audio id="bgMusic" src="../MP3/ハンバート ハンバート - 日が落ちるまで.mp3" autoplay preload loop="loop"></audio>
 
 
 
 </body>
-<script>
-    function autoPlay() {
-        var myAuto = document.getElementsByClassName("audioBtn");
-        var btn = document.getElementsByClassName("audioBtn");
-        if (myAuto.paused) {
-            myAuto.play();
-            btn.classList.remove("pause");
-            btn.classList.add("play");
-        } else {
-            myAuto.pause();
 
-            btn.classList.remove("play");
-            btn.classList.add("pause");
-        }
-
-    }
-</script>
 </html>
