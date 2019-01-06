@@ -57,8 +57,8 @@
 </body>
 <script>
     function autoPlay() {
-        var myAuto = document.getElementById('bgMusic?');
-        var btn = document.getElementById('audioBtn?');
+        var myAuto = document.getElementsByClassName("play");
+        var btn = document.getElementsByClassName("play");
         if (myAuto.paused) {
             myAuto.play();
             btn.classList.remove("pause");
