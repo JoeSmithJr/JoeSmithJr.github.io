@@ -47,18 +47,16 @@
  <!--</span>-->
 
 
-<a class="play" id="audioBtn1" style="cursor:pointer;" onclick="autoPlay()">ハンバート ハンバート - 日が落ちるまで</a>
-<audio id="bgMusic1" src="../MP3/ハンバート ハンバート - 日が落ちるまで.mp3" autoplay preload loop="loop"></audio>
+<a class="play" id="audioBtn" style="cursor:pointer;" onclick="autoPlay()">ハンバート ハンバート - 日が落ちるまで</a>
+<audio id="bgMusic" src="../MP3/ハンバート ハンバート - 日が落ちるまで.mp3" autoplay preload loop="loop"></audio>
 
-<a class="play" id="audioBtn2" style="cursor:pointer;" onclick="autoPlay()">房东的猫 - 云烟成雨</a>
-<audio id="bgMusic2" src="../MP3/房东的猫%20-%20云烟成雨.mp3" autoplay preload loop="loop"></audio>
 
 
 </body>
 <script>
     function autoPlay() {
-        var myAuto = document.getElementsByClassName("play");
-        var btn = document.getElementsByClassName("play");
+        var myAuto = document.getElementsByClassName("audioBtn");
+        var btn = document.getElementsByClassName("bgMusic");
         if (myAuto.paused) {
             myAuto.play();
             btn.classList.remove("pause");
