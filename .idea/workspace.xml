@@ -70,12 +70,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="925" />
+          <entry key="html" value="1067" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="925" />
+          <entry key="HTML" value="1067" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -108,10 +108,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fun/Game.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+            <state relative-caret-position="276">
+              <caret line="163" column="29" lean-forward="true" selection-start-line="163" selection-start-column="29" selection-end-line="163" selection-end-column="29" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -194,7 +195,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="516" />
     <option name="width" value="850" />
     <option name="height" value="728" />
@@ -286,12 +287,12 @@
       <workItem from="1546695201683" duration="3857000" />
       <workItem from="1546738068112" duration="277000" />
       <workItem from="1546741547140" duration="1254000" />
-      <workItem from="1546844457872" duration="1293000" />
+      <workItem from="1546844457872" duration="2493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36764000" />
+    <option name="totallyTimeSpent" value="37964000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="516" y="0" width="850" height="728" extended-state="0" />
@@ -389,10 +390,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fun/Game.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        <state relative-caret-position="276">
+          <caret line="163" column="29" lean-forward="true" selection-start-line="163" selection-start-column="29" selection-end-line="163" selection-end-column="29" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
