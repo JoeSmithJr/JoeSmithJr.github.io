@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Music</title>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <style>
+        a{
+            text-decoration:none;
+        }
+    </style>
+</head>
+<body>
+<ul>Songs:</ul>
+<ul>
+    <p> <a href="../MP3/Travis%20Garland%20-%20Didn't%20Stand%20A%20Chance.mp3" onclick="return false">Travis Garland - Didn't Stand A Chance.mp3</a></p>
+    <p> <a href="../MP3/Vince%C2%A0Zhang%20-%20G小调的巴赫%20(Vince%20Moonrise%20Edit).mp3" onclick="return false">Vince Zhang - G小调的巴赫 (Vince Moonrise Edit)</a></p>
+    <p> <a href="../MP3/ハンバート ハンバート - 日が落ちるまで.mp3" onclick="return false">ハンバート ハンバート - 日が落ちるまで</a></p>
+    <p><a href="../MP3/房东的猫%20-%20云烟成雨.mp3" onclick="return false">房东的猫 - 云烟成雨</a></p>
+    <p> <a href="../MP3/Belle%20and%20Sebastian、Norah%20Jones%20-%20Little%20Lou,%20Ugly%20Jack,%20Prophet%20John.mp3" onclick="return false">Belle and Sebastian、Norah Jones - Little Lou, Ugly Jack, Prophet John</a></p>
+    <p> <a href="../MP3/Robbie%20Williams%20-%20Better%20Man.mp3" onclick="return false">Robbie Williams - Better Man</a></p>
+    <p> <a href="../MP3/Sufjan%20Stevens%20-%20Mystery%20Of%20Love.mp3" onclick="return false">Sufjan Stevens - Mystery Of Love</a></p>
+</ul>
+<audio src="../MP3/ハンバート ハンバート - 日が落ちるまで.mp3" id="myaudio" controls="controls" loop="false" hidden="true"/>
+</body>
+<script>
+    $('a').on('click', function () {
+        var url = $(this).attr('href');
+        closePlay();
+        $('#myaudio').attr("src",url);
+        autoPlay();
+    })
+    function autoPlay() {
+        var myAuto = $('#myaudio')[0];
+        myAuto.play();
+    }
+    function closePlay() {
+        var myAuto = $('#myaudio')[0];
+        myAuto.pause();
+        myAuto.load();
+    }
+</script>
+</html>
