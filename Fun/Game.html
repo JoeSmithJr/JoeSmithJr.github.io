@@ -29,33 +29,27 @@
     </style>
 </head>
 <style type="text/css">
-    table.gridtable {
+    table {
         font-family: verdana,arial,sans-serif;
-        font-size:11px;
+        font-size:16px;
         color:#333333;
         border-width: 1px;
         border-color: #666666;
         border-collapse: collapse;
         align-content: center;
     }
-    table.gridtable th {
+    table th{
         border-width: 1px;
         padding: 8px;
         border-style: solid;
         border-color: #666666;
         background-color: #dedede;
     }
-    table.gridtable td {
-        border-width: 1px;
-        padding: 8px;
-        border-style: solid;
-        border-color: #666666;
-        background-color: #ffffff;
-    }
+
 </style>
 <body>
-<h4>持续跟进ing</h4>
-<table class="gridtable">
+<h4>Keep Following Up</h4>
+<table border="2">
     <tr>
         <th>Date</th>
         <th>主管</th>
@@ -65,33 +59,34 @@
     </tr>
     <tr>
         <td>2019/01/04</td>
-        <td style="color: red">R</td>
-        <td style="color: red">R</td>
-        <td style="color: red">R</td>
-        <td style="color: red">R</td>
+        <td bgcolor="#FF0000" >R</td>
+        <td bgcolor="#FF0000">R</td>
+        <td bgcolor="#FF0000">R</td>
+        <td bgcolor="#FF0000">R</td>
     </tr>
     <tr>
         <td>2019/01/05</td>
-        <td style="color: black">B</td>
-        <td style="color: red">R</td>
-        <td style="color: red">R</td>
-        <td style="color: green">N</td>
+        <td bgcolor="#000000">B</td>
+        <td bgcolor="#FF0000">R</td>
+        <td bgcolor="#FF0000">R</td>
+        <td bgcolor="#00CD00">N</td>
     </tr>
     <tr>
         <td>2019/01/06</td>
-        <td style="color: green">N</td>
-        <td style="color: black">B</td>
-        <td style="color: red">R</td>
-        <td style="color: black">B</td>
+        <td bgcolor="#00CD00">N</td>
+        <td bgcolor="#000000">B</td>
+        <td bgcolor="#FF0000">R</td>
+        <td bgcolor="#000000">B</td>
     </tr>
     <tr>
         <td>2019/01/07</td>
-        <td style="color: green">N</td>
-        <td style="color: green">N</td>
-        <td style="color: green">N</td>
-        <td style="color: green">N</td>
+        <td bgcolor="#00CD00">N</td>
+        <td bgcolor="#00CD00">N</td>
+        <td bgcolor="#00CD00">N</td>
+        <td bgcolor="#00CD00">N</td>
     </tr>
 
 </table>
+<br><tfoot>R="Red" B="Black" N="None"</tfoot>
 </body>
 </html>
