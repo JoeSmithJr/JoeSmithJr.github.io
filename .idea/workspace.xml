@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72ad8f9e-986c-4d33-8ced-e01c67ce9f24" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fun/Minimalism.html" beforeDir="false" afterPath="$PROJECT_DIR$/Fun/Minimalism.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -72,12 +71,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1588" />
+          <entry key="html" value="1633" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1588" />
+          <entry key="HTML" value="1633" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -127,7 +126,7 @@
         <entry file="file://$PROJECT_DIR$/Fun/Music.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
-              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+              <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -135,8 +134,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fun/Minimalism.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            <state relative-caret-position="342">
+              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -214,8 +213,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="683" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="683" />
     <option name="height" value="728" />
   </component>
@@ -243,18 +243,13 @@
             <path>
               <item name="JoeSmithJr.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="JoeSmithJr.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="Fun" type="462c0819:PsiDirectoryNode" />
+              <item name="Pic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JoeSmithJr.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="JoeSmithJr.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="MP3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JoeSmithJr.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JoeSmithJr.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="MP3" type="462c0819:PsiDirectoryNode" />
-              <item name="Mini" type="462c0819:PsiDirectoryNode" />
+              <item name="Pic" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -322,18 +317,18 @@
       <workItem from="1546919742384" duration="1020000" />
       <workItem from="1547000970603" duration="1030000" />
       <workItem from="1547021924425" duration="918000" />
-      <workItem from="1547039664112" duration="2887000" />
+      <workItem from="1547039664112" duration="3909000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49569000" />
+    <option name="totallyTimeSpent" value="50591000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="683" y="0" width="683" height="728" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.5271318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13690476" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -440,14 +435,14 @@
     <entry file="file://$PROJECT_DIR$/Fun/Music.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
-          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fun/Minimalism.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        <state relative-caret-position="342">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
         </state>
       </provider>
     </entry>
