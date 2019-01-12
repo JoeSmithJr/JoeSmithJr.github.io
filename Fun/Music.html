@@ -23,8 +23,9 @@
     <p> 8.<a href="../MP3/Family%20Of%20The%20Year%20-%20Hero.mp3" onclick="return false">Family Of The Year - Hero</a></p>
 </ul>
 <audio src="../MP3/ハンバート ハンバート - 日が落ちるまで.mp3" id="myaudio" controls="controls" loop="false" hidden="true"/>
-</body>
-<script>
+
+
+<script language="javascript" type="text/javascript">
     $('a').on('click', function () {
         var url = $(this).attr('href');
         closePlay();
@@ -41,4 +42,19 @@
         myAuto.load();
     }
 </script>
+
+<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+<center>
+    <H1 >
+        <font id="ip" size="5"></font>
+    </H1>
+</center>
+<script type="text/javascript">
+    (function ip() {
+        var str=returnCitySN["cip"]+','+returnCitySN["cname"];
+        var _result=document.getElementById("ip");
+        _result.innerHTML = str;
+    })();
+</script>
+</body>
 </html>
