@@ -43,18 +43,11 @@
     }
 </script>
 
+
 <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
-<center>
-    <H1 >
-        <font id="ip" size="5"></font>
-    </H1>
-</center>
 <script type="text/javascript">
-    (function ip() {
-        var str=returnCitySN["cip"]+','+returnCitySN["cname"];
-        var _result=document.getElementById("ip");
-        _result.innerHTML = str;
-    })();
+    document.write(`您的ip是${returnCitySN.cip}您的所在地是${returnCitySN.cname}`)
 </script>
+
 </body>
 </html>
