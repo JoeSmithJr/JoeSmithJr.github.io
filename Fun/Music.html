@@ -3,15 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Music</title>
+    <link rel="stylesheet" type="text/css" href="../css/lanren.css">
+    <script src="../js/lanren.js"></script>
     <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
-    <style>
-        a{
-            text-decoration:none;
-        }
-    </style>
 </head>
 <body>
-<ul>Songs:（Click to play）(Time Lapse)</ul>
+<canvas id='canvas' width="1000px" height="350px"></canvas>
 <ul>
     <p> 1.<a href="../MP3/Travis%20Garland%20-%20Didn't%20Stand%20A%20Chance.mp3" onclick="return false">Travis Garland - Didn't Stand A Chance.mp3</a></p>
     <p> 2.<a href="../MP3/Vince%C2%A0Zhang%20-%20G小调的巴赫%20(Vince%20Moonrise%20Edit).mp3" onclick="return false">Vince Zhang - G小调的巴赫 (Vince Moonrise Edit)</a></p>
@@ -22,7 +19,7 @@
     <p> 7.<a href="../MP3/Sufjan%20Stevens%20-%20Mystery%20Of%20Love.mp3" onclick="return false">Sufjan Stevens - Mystery Of Love</a></p>
     <p> 8.<a href="../MP3/Family%20Of%20The%20Year%20-%20Hero.mp3" onclick="return false">Family Of The Year - Hero</a></p>
     <p> 9.<a href="../MP3/谢安琪%20-%20喜帖街.mp3" onclick="return false">谢安琪-喜帖街</a></p>
-    <p> 10.<a href="../MP3/许嵩%20-%20明智之举.mp3" onclick="return false">许嵩-明智之举</a></p>
+    <p> 10.<a  href="../MP3/许嵩%20-%20明智之举.mp3" onclick="return false">许嵩-明智之举</a></p>
 </ul>
 <audio src="../MP3/ハンバート ハンバート - 日が落ちるまで.mp3" id="myaudio" controls="controls" loop="false" hidden="true"/>
 
@@ -46,10 +43,6 @@
 </script>
 
 
-<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
-<script type="text/javascript">
-    document.write(`您的ip是${returnCitySN.cip}您的所在地是${returnCitySN.cname}`)
-</script>
 
 </body>
 </html>
