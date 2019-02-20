@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72ad8f9e-986c-4d33-8ced-e01c67ce9f24" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Fun/honor.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fun/Game.html" beforeDir="false" afterPath="$PROJECT_DIR$/Fun/Game.html" afterDir="false" />
     </list>
@@ -53,7 +54,7 @@
     <session id="-835331229">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="29" />
+          <entry key="project.closed" value="31" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
@@ -67,26 +68,26 @@
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.34" value="2" />
           <entry key="project.open.time.35" value="1" />
-          <entry key="project.open.time.38" value="2" />
+          <entry key="project.open.time.38" value="3" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="31" />
+          <entry key="project.open.time.9" value="5" />
+          <entry key="project.opened" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="82" />
-          <entry key="html" value="2437" />
+          <entry key="html" value="2467" />
           <entry key="js" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="82" />
-          <entry key="HTML" value="2437" />
+          <entry key="HTML" value="2467" />
           <entry key="JavaScript" value="5" />
         </counts>
       </usages-collector>
@@ -94,7 +95,7 @@
         <counts>
           <entry key="c" value="1" />
           <entry key="css" value="8" />
-          <entry key="html" value="20" />
+          <entry key="html" value="21" />
           <entry key="js" value="6" />
         </counts>
       </usages-collector>
@@ -102,7 +103,7 @@
         <counts>
           <entry key="C++" value="1" />
           <entry key="CSS" value="8" />
-          <entry key="HTML" value="20" />
+          <entry key="HTML" value="21" />
           <entry key="JavaScript" value="6" />
         </counts>
       </usages-collector>
@@ -110,16 +111,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fun/Game.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="1520">
+              <caret line="80" column="8" selection-start-line="62" selection-end-line="80" selection-end-column="8" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Fun/honor.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -130,8 +140,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -167,6 +177,7 @@
         <option value="$PROJECT_DIR$/Fun/Schedule.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Fun/Game.html" />
+        <option value="$PROJECT_DIR$/Fun/honor.html" />
       </list>
     </option>
   </component>
@@ -190,6 +201,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,6 +222,12 @@
             <path>
               <item name="JoeSmithJr.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="JoeSmithJr.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="Fun" type="462c0819:PsiDirectoryNode" />
+              <item name="pic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JoeSmithJr.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JoeSmithJr.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -221,7 +239,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -299,12 +316,14 @@
       <workItem from="1547474265217" duration="2008000" />
       <workItem from="1547638864402" duration="2797000" />
       <workItem from="1550409356284" duration="2676000" />
-      <workItem from="1550545860352" duration="63000" />
+      <workItem from="1550545860352" duration="707000" />
+      <workItem from="1550547020112" duration="425000" />
+      <workItem from="1550655297162" duration="44000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71866000" />
+    <option name="totallyTimeSpent" value="72979000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -498,13 +517,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fun/Game.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="1520">
+          <caret line="80" column="8" selection-start-line="62" selection-end-line="80" selection-end-column="8" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fun/honor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
