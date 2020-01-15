@@ -1,0 +1,72 @@
+*
+{
+	font-family:Century Gothic;
+	color: #fff;
+}
+body
+{
+	background:url(bg1.jpg)
+}
+#sec
+{
+	
+	margin-left: 30%;
+	border: 3px solid #fff;
+	width: 750px;
+	height: 350px;
+	margin-top: 150px;
+}
+
+.para
+{
+	text-align: center;
+	margin-top: 70px;
+}
+
+#heading
+{
+	text-align: center;
+}
+#link
+{
+	border: 1px solid #fff;
+	text-decoration: none;
+	padding: 10px;
+	margin-left:2%;
+	background-color: transparent;
+	transition: 0.2s ease;
+}
+#link:hover
+{
+
+	border: 1px solid white;
+	background-color: white;
+	color: black;
+}
+
+
+#cancel
+{
+	border: 1px solid #fff;
+	text-decoration: none;
+	padding: 10px;
+	margin-left:60%;
+	background-color: transparent;
+	transition: 0.2s ease;
+}
+#cancel:hover
+{
+	border: 1px solid white;
+	background-color: white;
+	color: black;
+}
+
+.links
+{
+	list-style-type: none;
+}
+
+.linkss
+{
+	display: inline-block;
+}

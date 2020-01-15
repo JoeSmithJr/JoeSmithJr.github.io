@@ -1,0 +1,569 @@
+*
+{
+	margin:0;
+	padding:0;
+	font-family:Century Gothic;
+	
+
+}
+html
+{
+	scroll-behavior: smooth;
+}
+
+body
+{
+
+	background-color:rgba(0,152,50,0.2);
+	/*background:url(bg1.jpg);*/
+}
+header
+{
+	background-image:url(1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+
+}
+.links
+{
+	text-decoration: none;
+	color: #fff;
+	padding: 20px 30px;
+	transition: 0.5s ease;
+}
+
+.links:hover{
+
+	background-color:white;
+	color: black;
+
+}
+
+li
+{
+	display:  inline-block;
+}
+
+#nav
+{	
+	float: right;
+	margin-top:20px;
+	margin-left: 140px;
+	list-style-type: none;	
+}
+
+
+#search
+{
+	
+	transition: 0.5s ease;
+	float: left;
+	margin-top: 9px;
+	padding: 11.5px 150px;
+	border: 1px solid white;
+	border-radius: 20px;
+	margin-left: 30px;
+
+}
+#button
+{
+	transition: 0.5s ease;
+	background: transparent;
+	border: 1px solid white;
+	float: left;
+	margin-top:9px;
+	padding: 11.5px 25px;
+	color:white;
+	border-radius: 20px;
+	margin-left: 10px;
+}
+
+#button:hover
+{
+	background-color:#fff;
+	color:black;
+
+}
+#search:hover
+{
+	background-color:#e6e6e6; 
+
+}
+
+img
+{	
+	margin-top: 5px;
+	height: 60px;	
+	float: left;
+
+}
+
+.list
+{
+	z-index: 1;
+	background-color:#404040;
+	position: fixed;
+}
+.clearfix
+{
+	overflow: auto;
+}
+
+
+
+.products 
+{
+
+	color: #fff;
+	text-decoration: none;
+	transition: 0.1s ease;
+}
+.products:hover
+{
+	color: #000080;
+}
+
+.para 
+{
+	text-align: center;
+	margin-top: 30px;
+	font-size: 30px
+}
+
+.book
+{
+	margin-top: 20px;
+	margin-left: 62px;
+	height: 250px;
+	border:2px solid #fff;
+
+}
+.price
+{
+	font-size: 25px;
+
+	text-align: center;
+	margin-top: 270px;
+	height: 25px;
+
+}
+
+#a
+{
+	
+	margin-top: 120px;
+	margin-left: 20%;
+	position: absolute;
+	border:2px solid #fff;
+	height: 400px;
+	width: 290px;
+	text-align: center;
+	background-color: transparent;
+	transition: 0.5s ease;
+
+}
+
+#a:hover
+{
+	background-color: #fff;
+	border: 2px solid white;
+
+
+}
+
+#b
+{
+	
+	margin-top: 120px;
+	margin-left: 45%;
+	position: absolute;
+	border:2px solid #fff;
+	height: 400px;
+	width: 290px;
+	text-align: center;
+	background-color: transparent;
+	transition: 0.5s ease;
+
+}
+
+#b:hover
+{
+	background-color: #fff;
+	border: 2px solid white;
+
+
+}
+
+#c
+{
+	
+	margin-top: 120px;
+	margin-left: 70%;
+	position: absolute;
+	border:2px solid #fff;
+	height: 400px;
+	width: 290px;
+	text-align: center;
+	background-color: transparent;
+	transition: 0.5s ease;
+
+}
+
+#c:hover
+{
+	background-color: #fff;
+	border: 2px solid white;
+
+
+}
+
+#d
+{
+	
+	margin-top: 620px;
+	margin-left: 20%;
+	position: absolute;
+	border:2px solid #fff;
+	height: 400px;
+	width: 290px;
+	text-align: center;
+	background-color: transparent;
+	transition: 0.5s ease;
+
+}
+
+#d:hover
+{
+	background-color: #fff;
+	border: 2px solid white;
+
+
+}
+
+
+#e
+{
+	
+	margin-top: 620px;
+	margin-left: 45%;
+	position: absolute;
+	border:2px solid #fff;
+	height: 400px;
+	width: 290px;
+	text-align: center;
+	background-color: transparent;
+	transition: 0.5s ease;
+
+}
+
+#e:hover
+{
+	background-color: #fff;
+	border: 2px solid white;
+
+
+}
+
+
+#f
+{
+	
+	margin-top: 620px;
+	margin-left: 70%;
+	position: absolute;
+	border:2px solid #fff;
+	height: 400px;
+	width: 290px;
+	text-align: center;
+	background-color: transparent;
+	transition: 0.5s ease;
+
+}
+
+#f:hover
+{
+	background-color: #fff;
+	border: 2px solid white;
+
+
+}
+
+#g
+{
+	
+	margin-top: 1120px;
+	margin-left: 20%;
+	position: absolute;
+	border:2px solid #fff;
+	height: 400px;
+	width: 290px;
+	text-align: center;
+	background-color: transparent;
+	transition: 0.5s ease;
+
+}
+
+#g:hover
+{
+	background-color: #fff;
+	border: 2px solid white;
+
+}
+
+
+#h
+{
+	
+	margin-top: 1120px;
+	margin-left: 45%;
+	position: absolute;
+	border:2px solid #fff;
+	height: 400px;
+	width: 290px;
+	text-align: center;
+	background-color: transparent;
+	transition: 0.5s ease;
+
+}
+
+#h:hover
+{
+	background-color: #fff;
+	border: 2px solid white;
+
+}
+#i
+{
+	
+	margin-top: 20px;
+	margin-left: 20%;
+	position: absolute;
+	border:2px solid #fff;
+	height: 400px;
+	width: 290px;
+	text-align: center;
+	background-color: transparent;
+	transition: 0.5s ease;
+
+}
+
+#i:hover
+{
+	background-color: #fff;
+	border: 2px solid white;
+
+}
+
+#j
+{
+	
+	margin-top: 20px;
+	margin-left: 45%;
+	position: absolute;
+	border:2px solid #fff;
+	height: 400px;
+	width: 290px;
+	text-align: center;
+	background-color: transparent;
+	transition: 0.5s ease;
+
+}
+
+#j:hover
+{
+	background-color: #fff;
+	border: 2px solid white;
+
+}
+
+#reading
+{
+	color: #fff;
+	font-size: 50px;
+	margin-top: 1620px;
+	margin-left: 20%;
+	margin-bottom: 40px;
+	text-align: left;
+}
+#read
+{
+	color: #fff;
+	font-size: 50px;
+	margin-top: 20px;
+	margin-left: 20%;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+
+#contactus
+{
+	color: #fff;
+	background-color: #595959;
+	text-align: center;
+
+}
+#contact
+{
+	font-size: 20px;
+}
+
+#mail
+{
+	width:300px;
+	background-color:#e6e6e6;
+	border: 1px solid white;
+	margin-left: 10px;	
+
+	transition: 0.5s ease
+}
+#mail:hover
+{	
+	background-color:#fff;
+}
+#subbutton
+{
+	padding:10px 10px;
+	background-color:  #00cc00;
+	border: 0px solid white;
+	transition: 0.5s ease;
+	margin-left: 8px;
+	text-decoration: none;
+	border-radius: 20px;
+}
+#subbutton:hover
+{
+	background-color: #1aff1a;
+}
+#notify
+{
+	color: black;
+}
+#follow
+{
+	position: absolute;
+	margin-left: 450px;
+	margin-top: 3px;
+}
+#ig
+{
+	float: right;
+	height: 25px;
+	margin-right: 650px;
+	transition: 0.2s ease;
+
+}
+#ig:hover
+{
+	float: right;
+	height: 27px;
+	margin-right: 650px;
+
+
+}
+#twitter
+{
+	float: right;
+	height: 25px;
+	margin-right: -60px;
+	transition: 0.2s ease;
+
+}
+#twitter:hover
+{
+	float: right;
+	height: 27px;
+	margin-right: -60px;
+
+
+}
+#yt
+{
+
+	float: right;
+	height: 27px;
+	margin-right: -100px;
+	transition: 0.2s ease;
+
+}
+#yt:hover{
+	float: right;
+	height: 29px;
+	margin-right: -100px;
+
+}
+
+#fb
+{
+
+	float: right;
+	height: 27px;
+	margin-right: -138px;
+	transition: 0.2s ease;
+
+}
+#fb:hover{
+	float: right;
+	height: 29px;
+	margin-right: -138px;
+
+}
+
+.giveemail {
+	height: 35px;
+	border-radius: 20px;
+	padding-left: 15px;
+}
+
+
+#contactus
+{
+	color: #fff;
+	background-color: #595959;
+	text-align: center;
+	margin-top: 60px;
+
+}
+#contact
+{
+	font-size: 20px;
+}
+
+#mail
+{
+	width:300px;
+	background-color:#e6e6e6;
+	border: 1px solid white;
+	margin-left: 10px;	
+
+	transition: 0.5s ease
+}
+#mail:hover
+{	
+	background-color:#fff;
+}
+#subbutton
+{
+	padding:10px 10px;
+	background-color:  #00cc00;
+	border: 0px solid white;
+	transition: 0.5s ease;
+	margin-left: 8px;
+	text-decoration: none;
+	border-radius: 20px;
+}
+#subbutton:hover
+{
+	background-color: #1aff1a;
+}
+#notify
+{
+	color: black;
+}
+
+.giveemail {
+	height: 35px;
+	border-radius: 20px;
+	padding-left: 15px;
+}
