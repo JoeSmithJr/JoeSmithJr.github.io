@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<style type="text/css">
+		.dom1 {
+				position: relative;
+				margin: 0px 0px;
+				width: 1100px;
+				height: 900px;
+				left: -40px;
+				top: -60px;
+				background-size: cover;
+				background-color: cornflowerblue;
+				background-image: url(img/image5.png);
+			}
+			
+			.dom2 {
+				position: absolute;
+				top: 550px;
+				width: auto;
+				height: auto;
+				right: 30%;
+			}
+			
+			.dom3 {
+				position: absolute;
+				margin: 1050px 300px;
+				width: 500px;
+				height: 500px;
+				background-size: 500px;
+				background-image: url(img/im1.png);
+			}
+			
+			.dom4 {
+				position: absolute;
+				margin: 1650px 400px;
+				width: 248px;
+				height: 98px;
+				border: 2px solid cornflowerblue;
+				border-radius:10px;
+			}
+			
+			.dom5 {
+				position: absolute;
+				margin: 25px 50px;
+				width: 50px;
+				height: 50px;
+				background-image: url(img/refresh.png);
+				background-size: 50px, cover;
+				background-repeat: none;
+			}
+		}
+		</style>
+		<title></title>
+	</head>
+
+	<body>
+		<div class="dom1">
+
+			<div class="dom2">
+				<p style="color: white;font-size:55px;line-height:60px;text-align: right;margin: 15px;">黄芷珊</p>
+				<p style="color: white;font-size:40px;line-height:60px;text-align: right;margin: 25px;">信息科学技术学院/网络空间安全学院<br>计算机技术<br>No.2320180021457</p>>
+			</div>
+			<div class="dom3">
+
+			</div>
+			<div class="dom4">
+				<div class="dom5"></div>
+				<p style="font-size: 50px;color:cornflowerblue;text-align: right;margin: 15px 30px;">刷新</p>
+			</div>
+
+		</div>
+		<div>
+
+	</body>
+	<script type="text/javascript">
+		var div = document.getElementsByTagName("div")[3]; /*通过标签名div组*/
+		var div2 = document.getElementsByTagName("div")[2]; /*通过标签名div组*/
+		var count = 0; /*计数，从0开始，每点击一下加一*/
+		div.onclick = function() { /*给div绑定点击函数*/
+			count++; /*判断点击的次数，来改变背景颜色*/
+			if(count % 3 == 1) {
+				div2.style.backgroundImage="url(img/im2.png)"
+			} else if(count % 3 == 0) {
+				div2.style.backgroundImage="url(img/im1.png)"
+			} else {
+				div2.style.backgroundImage="url(img/im3.png)"
+			}
+		}
+	</script>
+
+</html>
